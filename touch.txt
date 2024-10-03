@@ -1,0 +1,15 @@
+mkdir HomeworkRepo
+cd HomeworkRepo
+git init
+git add hello.txt
+git commit -m "Add hello.txt"
+git remote add origin git@github.com:gjagiashvili/HomeworkRepo.git
+git branch -M main
+git push -u origin main
+
+
+------
+
+ფაილის გადმოტანა Github-იდან ლოკალურ ფოლდერში:
+
+git pull origin main
